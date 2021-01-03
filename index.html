@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistance Calculation</title>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- The Left Part -->
+        <div class="left">
+            <h1>Δ To Y</h1>
+            <hr class="leftHr">
+            <!-- R1 -->
+            <div class="Resistance">
+                <input class="leftIn" type="text" id="R1" placeholder="R1">
+            </div>
+            <!-- R2 -->
+            <div class="Resistance">
+                <input class="leftIn" type="text" id="R2" placeholder="R2">
+            </div>
+            <!-- R3 -->
+            <div class="Resistance">
+                <input class="leftIn" type="text" id="R3" placeholder="R3">
+            </div>
+            
+            <!-- Calculation Button -->
+            <button class="leftBut" onclick="YtoDelta()">Calc</button>
+            <div class="result" id="result1">--<br>Result<br>--</div>
+            <img src="img/Left.png" alt="">
+        </div>
+        
+        <!-- The Right Part -->
+        <div class="right">
+            <h1>Y To Δ</h1>
+            <hr class="rightHr">
+            <div class="Resistance">
+                <input class="rightIn" type="text" id="Ra" placeholder="Ra">
+            </div>
+            <div class="Resistance">
+                <input class="rightIn" type="text" id="Rb" placeholder="Rb">
+            </div>
+            <div class="Resistance">
+                <input class="rightIn" type="text" id="Rc" placeholder="Rc">
+            </div>
+            
+            <!-- Calculation Button -->
+            <button class="rightBut" onclick="DeltaToY()">Calc</button>
+            <div class="result" id="result2">--<br>Result<br>--</div>
+            <img src="img/Right.png" alt="">
+        </div>
+    </main>
+    
+    <footer>
+        <div class="rightBack"><p>Ahmed Gamal</p></div>
+        <div class="leftBack"><p>Developed by</p></div>
+    </footer>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

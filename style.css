@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.left {
+    text-align: center;
+    width: 50%;
+    float: left;
+    background-color: blueviolet;
+    color: #111;
+    position: relative;
+    /* display: inline; */
+}
+
+.right {
+    text-align: center;
+    width: 50%;
+    float: right;
+    background-color: #111;
+    color: blueviolet;
+    position: relative;
+    /* display: inline; */
+}
+
+.left, .right {
+    min-height: 93vh;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+hr {
+    border: 2px solid;
+    width: 40%;
+    margin: auto;
+}
+hr.leftHr {
+    color: #111;
+}
+hr.rightHr {
+    color: blueviolet;
+}
+
+div.Resistance {
+    margin: auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+div.right div,
+div.left div {
+    /* border: 2px solid; */
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+input {
+    /* float: right; */
+    width: 60%;
+    /* height: 1.7em; */
+    height: 100%;
+    /* position: relative; */
+    text-align: center;
+    font-size: 1.9em;
+    border-radius: 5px;
+    transition: width 0.4s ease-in-out;
+}
+input:focus {
+    width: 90%;
+}
+/* Left Inputs */
+.leftIn {
+    border: solid #111;
+}
+/* Right Inputs */
+.rightIn {
+    border: 3px solid blueviolet;
+    color: blueviolet;
+}
+
+br {
+    clear: both;
+}
+div.result {
+    width: 80%;
+}
+
+button {
+    margin: 12px auto;
+    font-size: 2em;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.leftBut {
+    background-color: #111;
+    color: blueviolet;
+}
+
+.rightBut {
+    background-color: blueviolet;
+    color: #111;
+}
+
+div.result {
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 5px auto;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/* 2 Images */
+img {
+    height: 300px;
+    max-width: 90%;
+    border: 8px;
+    border-style: groove;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    height: 4vh;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 1.4em;
+    /* position: absolute; */
+}
+
+footer div {
+    margin: auto;
+}
+footer p {
+    margin: 10px;
+}
+
+.rightBack {
+    background-color: blueviolet;
+    color: #111;
+    position: relative;
+    min-height: 100%;
+    float: right;
+    width: 50%;
+}
+.leftBack {
+    background-color: #111;
+    color: blueviolet;
+    position: relative;
+    min-height: 100%;
+    float: right;
+    width: 50%;
+}
