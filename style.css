@@ -129,6 +129,13 @@ img {
     margin-top: 2vh;
 }
 
+.leftImg {
+    border-color: #111;
+}
+.rightImg {
+    border-color: blueviolet;
+}
+
 /* Footer */
 footer {
     clear: both;
