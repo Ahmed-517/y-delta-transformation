@@ -21,7 +21,7 @@ function YtoDelta() {
         
         /* Our Conditions */
         if ((isNaN(R1) || isNaN(R2) || isNaN(R3)) && (R1==="" || R2==="" || R3==="")) {
-            result1.innerHTML = "!سايب خانة فاضية وكمان كاتب كلام ؟" + "<br>" +"<span dir=\"rtl\">اكتب قيم R1 و R2 و R3 صح</span>";
+            result1.innerHTML = "سايب خانة فاضية وكمان كاتب كلام ؟" + "<br>" +"<span dir=\"rtl\">اكتب قيم R1 و R2 و R3 صح</span>";
         } else if (isNaN(R1) || isNaN(R2) || isNaN(R3)) {
             result1.innerHTML = "مفيش مقاومة كلام" + "<br>" + "(اكتب قيمة)";
         } else if (R1==="" || R2==="" || R3==="") {
@@ -63,7 +63,7 @@ function DeltaToY() {
         "R3 is " + R3
         /* Our Conditions */
         if ((isNaN(_Ra) || isNaN(_Rb) || isNaN(_Rc)) && (_Ra==="" || _Rb==="" || _Rc==="")) {
-            result2.innerHTML = "!سايب خانة فاضية وكمان كاتب كلام ؟" + "<br>" +"<span dir=\"rtl\">اكتب قيم Ra و Rb و Rc صح</span>";
+            result2.innerHTML = "سايب خانة فاضية وكمان كاتب كلام ؟" + "<br>" +"<span dir=\"rtl\">اكتب قيم Ra و Rb و Rc صح</span>";
         } else if (isNaN(_Ra) || isNaN(_Rb) || isNaN(_Rc)) {
             result2.innerHTML = "مفيش مقاومة كلام" + "<br>" + "(اكتب قيمة)";
         } else if (_Ra==="" || _Rb==="" || _Rc==="") {

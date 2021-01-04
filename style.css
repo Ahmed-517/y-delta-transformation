@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .left {
@@ -29,7 +29,8 @@ body {
 }
 
 .left, .right {
-    min-height: 93vh;
+    /* min-height: 100vh; */
+    min-height: 1000px;
 }
 
 h1 {
@@ -160,4 +161,23 @@ footer p {
     min-height: 100%;
     float: right;
     width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        width: 40%;
+    }
+    input {
+        width: 80%;
+    }
+    img {
+        width: 70%;
+        height: auto;
+    }
+    div.result {
+        padding: 10px;
+    }
+    .left, .right {
+        min-height: 900px;
+    }
 }
